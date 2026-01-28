@@ -1,14 +1,24 @@
-# Linear Regression – Medical Cost Prediction
+# Linear Regression – Medical Cost Prediction (Day-1)
 
-Objective: Predict medical insurance cost using personal attributes.
+## Objective
+Predict medical insurance cost using personal attributes with Linear Regression.
 
-Dataset: Medical Cost Personal Dataset.
+## Dataset
+Medical Cost Personal Dataset.
 
-Steps:
-- EDA and visualization
-- Encoding categorical features
-- Train-test split
-- Linear Regression model
-- Evaluation using R² and Adjusted R²
+## Workflow
+- Basic data exploration and visualization  
+- Categorical feature encoding  
+- Train–test split  
+- Model training (Linear Regression)  
+- Model evaluation using R² and Adjusted R²  
+- Feature engineering with One-Hot Encoding  
+- Interaction feature creation  
+- Underfitting and overfitting analysis  
 
-Outcome: Smoking status and BMI significantly impact insurance cost.
+## Key Insights
+Smoking status, BMI, and interaction features significantly impact insurance cost.  
+Feature engineering improved model explainability and performance.
+
+## Tools
+Python, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn
